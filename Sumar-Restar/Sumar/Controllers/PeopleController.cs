@@ -13,7 +13,7 @@ namespace Sumar.Controllers
     public class PeopleController : ControllerBase
     {
         [HttpGet]
-        public Person listar() 
+        public Person Listar() 
         {
             Person person = new Person()
             {
